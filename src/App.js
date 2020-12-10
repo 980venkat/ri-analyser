@@ -1,21 +1,31 @@
-import React, {Component} from 'react';
-import {render} from 'react-dom';
-import './app.css';
+import React from 'react';
+import { ThemeProvider } from 'styled-components';
 
+import { useDarkMode } from './useDarkMode';
+import { lightTheme, darkTheme } from './theme';
+import { GlobalStyles } from './global';
 
-import Header from './components/header';
-import Footer from './components/footer';
+import Header from './rcomponents/header';
+import Footer from './rcomponents/footer';
+import Home from './rcomponents/Home';
 
-class App extends React.Component {
-  render() {
+function App() {
+  const [theme, toggleTheme, componentMounted] = useDarkMode();
+  const themeMode = theme === 'light' ? lightTheme : darkTheme;
 
-    return (
-      <div>
-        <Header />
-        <Footer />
-      </div>
-    )
-  }
-}
+  if (!componentMounted) {
+    return <div/>
+  };
+
+  return (
+    <ThemeProvider theme={themeMode}>
+      <>
+        <GlobalStyles />
+         <Header/>
+         <Footer/>
+      </>
+    </ThemeProvider>
+  );
+};
 
 export default App;

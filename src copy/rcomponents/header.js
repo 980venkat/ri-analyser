@@ -17,13 +17,13 @@ class Header extends React.Component{
       return (
           <div>
 
-          <nav class="navbar navbar-expand-sm bg-primary" >
-            <ul class="navbar-nav">
+         <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <ul className="navbar-nav mr-auto">
               <li class="nav-item active" styles={styles.bigblue}>
-                <Link to="/home">Home</Link>
+                <Link to="/home" className="nav-link">Home</Link>
               </li>
               <li class="nav-item">
-              <Link to="/details">Details</Link>
+              <Link to="/details" className="nav-link">Details</Link>
               </li>
 
             </ul>
