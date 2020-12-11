@@ -54,7 +54,7 @@ class Home extends React.Component{
   render(){
     return (
           <DataTable
-            title="Arnold Movies"
+            title=" Movies"
             columns={columns}
             data={data}
             />

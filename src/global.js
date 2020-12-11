@@ -40,7 +40,7 @@ export const GlobalStyles = createGlobalStyle`
 
 
   .navbar {
-    background-color: #4C6EA5;
+    background-color: ${({ theme }) => theme.headerBackgroundColor};
     top: 0;
     width: 100%;
     overflow: hidden;
@@ -49,7 +49,7 @@ export const GlobalStyles = createGlobalStyle`
 
   .navbara {
     float: left;
-    color:  #C0D1E6;
+    color: ${({ theme }) => theme.text};
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -73,7 +73,10 @@ export const GlobalStyles = createGlobalStyle`
 .rdt_TableHeader{
   background-color:  ${({ theme }) => theme.body};
   color: ${({ theme }) => theme.text};
-
 }
 
+
+.rdt_TableCol{
+  color: ${({ theme }) => theme.text};
+}
 `;
