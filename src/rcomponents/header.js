@@ -31,21 +31,22 @@ import Details from './Details';
         <div  >
         <div class="navbar" >
              <table><tr><td>
-             <Link to="/home" className="navbara" >Home</Link>
+             <Link to="/ri-analyser/home" className="navbara" >Home</Link>
              </td><td>
-             <Link to="/details" className="navbara" >Details</Link>
+             <Link to="/ri-analyser/details" className="navbara" >Details</Link>
              </td></tr></table>
              <Toggle theme={theme} toggleTheme={toggleTheme} />
         </div>
         </div>
            <Route exact path="/">
-               <Redirect to="/home" />
+               <Redirect to="/ri-analyser/home" />
            </Route>
+
            <Route exact path="/ri-analyser">
-               <Redirect to="/home" />
+               <Redirect to="/ri-analyser/home" />
            </Route>
-           <Route path="/home"><Home theme={theme} toggleTheme={toggleTheme} /></Route>
-           <Route path="/details"><Details /></Route>
+           <Route path="/ri-analyser/home"><Home theme={theme} toggleTheme={toggleTheme} /></Route>
+           <Route path="/ri-analyser/details"><Details /></Route>
          </div>
 
       </>
