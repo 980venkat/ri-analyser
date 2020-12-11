@@ -4,7 +4,7 @@ import DataTable , { createTheme }  from 'react-data-table-component';
 import { useDarkMode } from './../useDarkMode';
 import { createGlobalStyle } from 'styled-components';
 
-const data = [{ id: 1, title: 'Conan the Barbarian', year: '1982' },{ id: 2, title: 'Conan the Barbarian', year: '1982' },{ id: 3, title: 'Conan the Barbarian', year: '1982' },{ id: 4, title: 'Conan the Barbarian', year: '1982' },{ id: 5, title: 'Conan the Barbarian', year: '1982' },{ id: 6, title: 'Conan the Barbarian', year: '1982' },{ id: 7, title: 'Conan the Barbarian', year: '1982' },{ id: 8, title: 'Conan the Barbarian', year: '1982' },{ id: 9, title: 'Conan the Barbarian', year: '1982' }];
+const data = [{ id: 1, title: 'Ramesh', year: '1982' },{ id: 2, title: 'Ramesh', year: '1982' },{ id: 3, title: 'Ramesh', year: '1982' },{ id: 4, title: 'Ramesh', year: '1982' },{ id: 5, title: 'Ramesh', year: '1982' },{ id: 6, title: 'Ramesh', year: '1982' },{ id: 7, title: 'Ramesh', year: '1982' },{ id: 8, title: 'Ramesh', year: '1982' },{ id: 9, title: 'Ramesh', year: '1982' }];
 const columns = [
   {
     name: 'ID',
