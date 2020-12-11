@@ -11,7 +11,7 @@ import Home from './rcomponents/Home';
 
 function App() {
   const [theme, toggleTheme, componentMounted] = useDarkMode();
-  const themeMode = theme === 'light' ? lightTheme : darkTheme;
+  const themeMode = theme === 'default' ? lightTheme : darkTheme;
 
   if (!componentMounted) {
     return <div/>

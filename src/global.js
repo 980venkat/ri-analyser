@@ -29,7 +29,10 @@ export const GlobalStyles = createGlobalStyle`
 
   button {
     display: block;
+
   }
+
+  button:focus {outline:0;}
 
   a {
     color: ${({ theme }) => theme.text};
@@ -38,9 +41,10 @@ export const GlobalStyles = createGlobalStyle`
 
   .navbar {
     background-color: #4C6EA5;
-    overflow: hidden;
     top: 0;
     width: 100%;
+    overflow: hidden;
+
   }
 
   .navbara {
@@ -51,16 +55,25 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 17px;
   }
 
-  .topnavi{
-    float: right;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    border: none;
-    font-size: 17px;
-  }
+ .bodystyle{
+   border: 5px solid red;
+ }
+
+.rdt_TableRow{
+  background-color:  ${({ theme }) => theme.body};
+  color: ${({ theme }) => theme.text};
+
+}
+.rdt_TableHeadRow{
+  background-color:  ${({ theme }) => theme.body};
+  color: ${({ theme }) => theme.text};
 
 
+}
+.rdt_TableHeader{
+  background-color:  ${({ theme }) => theme.body};
+  color: ${({ theme }) => theme.text};
 
+}
 
 `;

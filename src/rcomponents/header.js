@@ -28,10 +28,13 @@ import Details from './Details';
       <>
         <GlobalStyles />
         <div>
-        <div class="bodystyle" >
+        <div  >
         <div class="navbar" >
+             <table><tr><td>
              <Link to="/home" className="navbara" >Home</Link>
+             </td><td>
              <Link to="/details" className="navbara" >Details</Link>
+             </td></tr></table>
              <Toggle theme={theme} toggleTheme={toggleTheme} />
         </div>
         </div>
@@ -41,7 +44,7 @@ import Details from './Details';
            <Route exact path="/ri-analyser">
                <Redirect to="/home" />
            </Route>
-           <Route path="/home"><Home /></Route>
+           <Route path="/home"><Home theme={theme} toggleTheme={toggleTheme} /></Route>
            <Route path="/details"><Details /></Route>
          </div>
 
