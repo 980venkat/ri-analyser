@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/app.css"],"names":[],"mappings":"AAAA,WACE,SAAU,CACV,kBAEF","file":"main.9497d5b5.chunk.css","sourcesContent":[".bodystyle{\n  color: red;\n  border-width: thick;\n\n}\n"]}

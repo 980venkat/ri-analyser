@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/ri-analyser/static/css/main.89bac20c.chunk.css",
-    "main.js": "/ri-analyser/static/js/main.6d3b850a.chunk.js",
-    "main.js.map": "/ri-analyser/static/js/main.6d3b850a.chunk.js.map",
-    "runtime-main.js": "/ri-analyser/static/js/runtime-main.7d229d08.js",
-    "runtime-main.js.map": "/ri-analyser/static/js/runtime-main.7d229d08.js.map",
+    "main.css": "/ri-analyser/static/css/main.9497d5b5.chunk.css",
+    "main.js": "/ri-analyser/static/js/main.1526b582.chunk.js",
+    "main.js.map": "/ri-analyser/static/js/main.1526b582.chunk.js.map",
+    "runtime-main.js": "/ri-analyser/static/js/runtime-main.59caf79c.js",
+    "runtime-main.js.map": "/ri-analyser/static/js/runtime-main.59caf79c.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/ri-analyser/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.f4fbd996.chunk.js": "/ri-analyser/static/js/2.f4fbd996.chunk.js",
-    "static/js/2.f4fbd996.chunk.js.map": "/ri-analyser/static/js/2.f4fbd996.chunk.js.map",
-    "static/js/3.4046846c.chunk.js": "/ri-analyser/static/js/3.4046846c.chunk.js",
-    "static/js/3.4046846c.chunk.js.map": "/ri-analyser/static/js/3.4046846c.chunk.js.map",
+    "static/js/2.7db643c9.chunk.js": "/ri-analyser/static/js/2.7db643c9.chunk.js",
+    "static/js/2.7db643c9.chunk.js.map": "/ri-analyser/static/js/2.7db643c9.chunk.js.map",
     "index.html": "/ri-analyser/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/ri-analyser/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.89bac20c.chunk.css.map": "/ri-analyser/static/css/main.89bac20c.chunk.css.map",
-    "static/js/2.f4fbd996.chunk.js.LICENSE.txt": "/ri-analyser/static/js/2.f4fbd996.chunk.js.LICENSE.txt",
-    "static/media/app.css": "/ri-analyser/static/media/logo.d5f3fb86.svg"
+    "static/css/main.9497d5b5.chunk.css.map": "/ri-analyser/static/css/main.9497d5b5.chunk.css.map",
+    "static/js/2.7db643c9.chunk.js.LICENSE.txt": "/ri-analyser/static/js/2.7db643c9.chunk.js.LICENSE.txt",
+    "static/media/moon.f43c67a8.svg": "/ri-analyser/static/media/moon.f43c67a8.svg",
+    "static/media/sun.339f5fcb.svg": "/ri-analyser/static/media/sun.339f5fcb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7d229d08.js",
+    "static/js/runtime-main.59caf79c.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.f4fbd996.chunk.js",
-    "static/css/main.89bac20c.chunk.css",
-    "static/js/main.6d3b850a.chunk.js"
+    "static/js/2.7db643c9.chunk.js",
+    "static/css/main.9497d5b5.chunk.css",
+    "static/js/main.1526b582.chunk.js"
   ]
 }
