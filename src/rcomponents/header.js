@@ -13,9 +13,10 @@ import { useDarkMode } from './../useDarkMode';
 import { lightTheme, darkTheme } from './../theme';
 import { GlobalStyles } from './../global';
 import Toggle from '../components/Toggle';
-
 import Home from './Home';
 import Details from './Details';
+import { FaHome } from 'react-icons/fa';
+import { FaList } from 'react-icons/fa';
 
  function Header() {
 
@@ -31,9 +32,9 @@ import Details from './Details';
         <div  >
         <div class="navbar" >
              <table><tr><td>
-             <Link to="/ri-analyser/home" className="navbara" >Home</Link>
+             <Link to="/ri-analyser/home" className="navbara" > <FaHome size={25}/>&nbsp;	Home</Link>
              </td><td>
-             <Link to="/ri-analyser/details" className="navbara" >Details</Link>
+             <Link to="/ri-analyser/details" className="navbara" ><FaList size={18}/>&nbsp;	Details</Link>
              </td></tr></table>
              <Toggle theme={theme} toggleTheme={toggleTheme} />
         </div>

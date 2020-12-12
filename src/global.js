@@ -68,15 +68,23 @@ export const GlobalStyles = createGlobalStyle`
   background-color:  ${({ theme }) => theme.body};
   color: ${({ theme }) => theme.text};
 
-
 }
 .rdt_TableHeader{
   background-color:  ${({ theme }) => theme.body};
   color: ${({ theme }) => theme.text};
 }
 
-
 .rdt_TableCol{
   color: ${({ theme }) => theme.text};
 }
+
+.footerclass{
+  background-color: ${({ theme }) => theme.body};
+  color: ${({ theme }) => theme.text};
+  padding: 110px;
+  text-align: center;
+  font-size: 9px;
+}
+
+
 `;
