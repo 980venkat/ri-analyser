@@ -1,0 +1,13 @@
+{
+    "TableName": "ReservedInstancesOfferings",
+    "KeySchema": [
+      { "AttributeName": "ReservedInstancesOfferingId", "KeyType": "HASH" }
+    ],
+    "AttributeDefinitions": [
+      { "AttributeName": "ReservedInstancesOfferingId", "AttributeType": "S" }
+    ],
+    "ProvisionedThroughput": {
+      "ReadCapacityUnits": 2,
+      "WriteCapacityUnits": 2
+    }
+}
